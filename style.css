@@ -2,8 +2,7 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-   
+    box-sizing: border-box;   
 }
 
 nav {
@@ -12,9 +11,9 @@ nav {
 
 nav ul {   
     display: flex;
-    position: fixed;
-    height: 55; 
-    margin-left: 13%; 
+    height: 55;
+    position: fixed; 
+    margin-left: 20%; 
 }
 
 .img-logo {
@@ -26,8 +25,8 @@ nav ul {
     height: 30px;
     margin-top: 0.6%;
     padding-left: 10px;
+    left: 10%
 }
-
 
 nav ul li{
     list-style: none;
@@ -38,16 +37,15 @@ nav ul li{
 }
 
 .home-space{
-    padding-left: 95px;
+    padding-left: 5px;
 }
 
 nav ul li a{
     color: black;
     font-size: 30px;
-    font-style: italic;
+    font-style: bold;
     cursor: pointer;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 nav ul li a:hover{
@@ -61,18 +59,16 @@ nav ul li a:hover{
    height: 100vh;
 }
 
-#home h2{    
+#home h1{    
  font-size: 70px;
  padding-left: 200px;
  padding-right: 100px;
  padding-top: 90px;
-
 }
 
 .home-main{
     display: flex;
-    margin: 10px;
-   
+    margin: 10px; 
 }
 
 .home-1{
@@ -91,15 +87,16 @@ nav ul li a:hover{
 .my-img{
     width: 420px;
     height: 580px;
-    border-radius: 20px;
-    
+    border-radius: 20px;  
 }
 
 #home p{
-  padding-left: 200px;
+  left: 200px;
   font-size: 35px;
   color: blue;
-  padding-bottom: 10px;  
+  position: relative;
+  width: 330px;
+  display: flex;
 }
 
 .btn-container{
@@ -226,6 +223,7 @@ nav ul li a:hover{
     padding-bottom: 6px;
     color: white;
 }
+
 .projects-container button{
    background-color: black;
    color: white;
@@ -235,10 +233,6 @@ nav ul li a:hover{
    border-radius: 9px;
    font-weight: 600;
    cursor: pointer;
-}
-
-.demo-btn{
- 
 }
   
 .sc-btn{
@@ -252,8 +246,6 @@ nav ul li a:hover{
     font-size: 90%;
 }
 
-
-
 .project-img{
    height: 150px;
    width: 270px;
@@ -262,7 +254,8 @@ nav ul li a:hover{
 
 #contact{
     height: 100vh;
-    background-color: black;
+    background:url("contact-img.jpg");
+    background-size: cover;
     color: white;
 }
 
