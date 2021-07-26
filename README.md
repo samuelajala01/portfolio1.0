@@ -1,3 +1,7 @@
 # portfolio
 
-created from scratch myself.
+created from scratch.
+
+used fontawesome.com
+
+
