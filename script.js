@@ -2,4 +2,4 @@ function myalert(){
     alert("For better experience, view on a desktop");
 }
 
-setTimeout(myalert), 1000);
+setTimeout(myalert(), 3000);
