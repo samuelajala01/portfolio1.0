@@ -2,45 +2,42 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 .main-nav {
    height: 55px;
    display: flex;
-}  
+}
 
-.main-nav ul {   
+.main-nav ul {
     display: flex;
-    height: 55;
-    position: fixed; 
-    margin-left: 20%; 
+    position: fixed;
+    margin-left: 20%;
 }
 
 .img-logo {
     border-radius: 30px;
     border: 1px solid blue;
+    text-align: center;
+    outline: none;
     background-color: black;
     color: white;
     font-size: 25px;
-    width: 55px; 
     position: fixed;
+    width: 55px;
+    text-decoration: none;
     height: 30px;
     margin-top: 0.6%;
-    padding-top: 3px;
-    padding-left: 3px;
-    margin-left: 10%
+    margin-right: 5%;
+    margin-left: 10%;
 }
 
 .main-nav ul li{
     list-style: none;
-    list-style-type: none; 
+    list-style-type: none;
     padding-right: 85px;
-    margin-top: 0.8%;  
-}
-
-.home-space{
-    padding-left: 5px;
+    margin-top: 0.8%;
 }
 
 .main-nav ul li a{
@@ -60,11 +57,11 @@
    height: 100vh;
 }
 
-#home h1{    
+#home h1{
  font-size: 70px;
- padding-left: 200px;
- padding-right: 100px;
- padding-top: 90px;
+ margin-left: 200px;
+ margin-right: 100px;
+ margin-top: 90px;
 }
 
 .home-main{
@@ -77,17 +74,12 @@
     margin-right: 30px;
 }
 
-.home-2{
-    flex: 1;
-    height: 530px;
-    border-radius: 30px;
-    padding-right: 2%;
-}
-
 .my-img{
+    flex: 1;
     width: 420px;
     height: 580px;
-    border-radius: 20px;  
+    margin-right: 2%;
+    border-radius: 20px;
 }
 
 #home p{
@@ -107,9 +99,9 @@
 }
 
 .btn-container button{
-  background-color: black;  
-  color:white; 
-  padding: 10px; 
+  background-color: black;
+  color:white;
+  padding: 10px;
   margin-right: 35px;
   border-radius: 15px;
   font-size: 18px;
@@ -119,11 +111,10 @@
 .btn-container button:hover{
     transition-duration: 700ms;
     background-color: blue;
-    font-size: 20px;
     transition: 0.2s;
 }
 
-.icon-container{ 
+.icon-container{
     height: 60px;
     margin-top: 60px;
     margin-left: 200px;
@@ -149,7 +140,7 @@
 }
 
 #about{
-    height: 100vh; 
+    height: 100vh;
     background-color:  rgba(12, 24, 59, 0.911);
 }
 
@@ -163,6 +154,7 @@
 .about-main{
    display: flex;
    margin: 10px;
+   flex-wrap: wrap;
 }
 
 .about-1{
@@ -196,7 +188,7 @@
 .about-2{
   flex: 1;
   height: 570px;
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 .tools{
@@ -378,8 +370,40 @@ textarea:valid~label{
     cursor: pointer;
 }
 
+#submit-btn:hover{
+    background-color: rgb(190, 184, 184);
+    transition-duration: 1s;
+    color: black;
+    font-weight: 700;
+}
+
 footer{
     background-color: black;
     color: white;
-    height: 30vh;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-main{
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.footer-main div{
+    margin-top: 15px;
+    border: 2px solid white;
+    width: 350px;
+    color: white;
+}
+
+.footer-main div h1{
+    text-align: center;
+}
+
+.footer-end{
+    height: 50px;
+    background-color: rgb(78, 75, 75);
+    text-align: center;
+    padding-top: 15px;
 }
