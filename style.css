@@ -379,3 +379,8 @@ textarea:valid~label{
     cursor: pointer;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
