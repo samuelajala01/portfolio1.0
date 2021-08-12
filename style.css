@@ -42,7 +42,7 @@
 
 .main-nav ul li a{
     color: black;
-    font-size: 1.9rem;
+    font-size: 2vw;
     cursor: pointer;
     text-decoration: none;
 }
@@ -58,11 +58,11 @@
 }
 
 #home h1{
- font-size: 4rem;
- display: inline-block;
- margin-left: 200px;
+ font-size: 70px;
+ margin-left: 15vw;
  margin-top: 90px;
  min-width: 20vw;
+ background-color: chartreuse;
 }
 
 .home-main{
@@ -73,39 +73,39 @@
 
 
 #home p{
-  margin-left: 200px;
-  font-size: 35px;
+  margin-left: 15vw;
+  font-size: 2.2rem;
   color: blue;
   position: relative;
   width: 330px;
+  background-color: brown;
 }
 
 .my-img{
     width: 420px;
-    min-width: 100px;
-    min-height: 130px;
     height: 580px;
-    border-radius: 20px;
-    margin-left: 10vw;
+    border-radius: 25px;
+    margin-left: 5vw;
     margin-right: 3%;
 }
 
 .btn-container{
-    margin-left: 200px;
-    margin-top: -12rem;
-    height: 47px;
-    width: 18vw;
+    margin-left: 15vw;
+    margin-top: -11rem;
     display: flex;
+    width: 18%;
     align-items: center;
     justify-content: space-between;
+    background-color: aqua;
 }
 
 .btn-container button{
   background-color: black;
   color:white;
-  padding: 0.6rem;
+  height: 3rem;
+  padding: 0.5vw;
   border-radius: 15px;
-  font-size: 1rem;
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -117,8 +117,10 @@
 
 .icon-container{
     height: 60px;
+    width: 24%;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 15vw;
+    background-color: black;
 }
 
 .icon-container ul{
