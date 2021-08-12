@@ -42,9 +42,9 @@
 
 .main-nav ul li a{
     color: black;
-    font-size: 30px;
+    font-size: 1.9rem;
     cursor: pointer;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .main-nav ul li a:hover{
@@ -54,32 +54,24 @@
 }
 
 #home{
-   height: 100vh;
+   min-height: 93vh;
 }
 
 #home h1{
- font-size: 70px;
+ font-size: 4rem;
+ display: inline-block;
  margin-left: 200px;
- margin-right: 100px;
  margin-top: 90px;
+ min-width: 20vw;
 }
 
 .home-main{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .home-1{
-    flex: 2;
-    height: 530px;
-    margin-right: 30px;
-}
-
-.my-img{
-    flex: 1;
-    width: 420px;
-    height: 580px;
-    margin-right: 2%;
-    border-radius: 20px;
 }
 
 #home p{
@@ -90,21 +82,33 @@
   width: 330px;
 }
 
+.my-img{
+    width: 420px;
+    min-width: 100px;
+    min-height: 130px;
+    height: 580px;
+    border-radius: 20px;
+    margin-left: 10vw;
+    margin-right: 3%;
+}
+
 .btn-container{
     margin-left: 200px;
-    margin-top: 20px;
-    padding-right: 20px;
+    margin-top: -12rem;
     height: 47px;
+    background-color: aqua;
+    width: 18vw;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .btn-container button{
   background-color: black;
   color:white;
-  padding: 10px;
-  margin-right: 35px;
+  padding: 0.6rem;
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -116,7 +120,7 @@
 
 .icon-container{
     height: 60px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 200px;
 }
 
@@ -140,7 +144,7 @@
 }
 
 #about{
-    height: 100vh;
+    min-height: 100vh;
     background-color:  rgba(12, 24, 59, 0.911);
 }
 
@@ -224,7 +228,7 @@
 }
 
 #projects{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #projects h4{
@@ -266,7 +270,7 @@
    font-weight: 600;
    cursor: pointer;
 }
-  
+
 .sc-btn{
   margin-left: 30px;
 }
@@ -285,7 +289,7 @@
 }
 
 #contact{
-    height: 100vh;
+    min-height: 100vh;
     background:url("contact-img.jpg");
     background-size: cover;
     color: white;
