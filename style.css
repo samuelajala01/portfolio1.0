@@ -8,7 +8,6 @@
 .main-nav {
    height: 55px;
    display: flex;
-   background-color: darkgreen;
 }
 
 .main-nav ul {
@@ -63,7 +62,6 @@
  margin-left: 15vw;
  margin-top: 90px;
  min-width: 20vw;
- background-color: chartreuse;
 }
 
 .home-main{
@@ -79,7 +77,6 @@
   color: blue;
   position: relative;
   width: 330px;
-  background-color: brown;
 }
 
 .my-img{
@@ -97,7 +94,6 @@
     width: 18%;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 .btn-container button{
@@ -121,7 +117,6 @@
     width: 24%;
     margin-top: 50px;
     margin-left: 15vw;
-    background-color: black;
 }
 
 .icon-container ul{
