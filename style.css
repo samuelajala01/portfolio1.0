@@ -8,6 +8,7 @@
 .main-nav {
    height: 55px;
    display: flex;
+   background-color: darkgreen;
 }
 
 .main-nav ul {
@@ -315,13 +316,14 @@
 
 form{
     width: 90%;
-    max-width: 600px;  
+    max-width: 600px;
 }
 
 .row{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .row .input-group{
@@ -391,6 +393,7 @@ footer{
     display: flex;
     height: 350px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .footer-main div{
