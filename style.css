@@ -6,8 +6,7 @@
 }
 
 .main-nav {
-   height: 55px;
-  
+  height: 2.7rem;
 }
 
 .main-nav ul {
@@ -62,7 +61,7 @@
  margin-left: 15vw;
  margin-top: 90px;
  min-width: 330px;
- background-color: aqua;
+
 }
 
 .home-main{
@@ -93,19 +92,17 @@
     margin-left: 15vw;
     margin-top: 2%;
     display: flex;
-    width: 190px;
+    width: 240px;
     justify-content: space-between;
-    background-color: blue;
 }
 
 .btn-container button{
   background-color: black;
   color:white;
   height: 3rem;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 100px;
   border-radius: 15px;
-  font-size: 100%;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -120,7 +117,6 @@
     width: 24vw;
     margin-top: 60px;
     margin-left: 15vw;
-    background-color: black;
 }
 
 .icon-container ul{
@@ -413,43 +409,45 @@ footer{
     padding-top: 15px;
 }
 
-@media screen and (max-width:1026px) {
-    .my-img{
-      display: none;
-      height: 400px;
-      width: 300px;  
-    }
+@media screen and (max-width:1024px) {
 
-    #home{
-        min-height: 100vh;
-        background-color: darkgreen;
-    }
-    .home-main{
-        min-height: 100vh;
-    }
-    #home h1{
-        margin-top: 40px;
-        font-size: 60px;
-    }
-    
-    #home p{
-        font-size: 1.9rem;
-    }
-    .icon-container{
-    margin-top: 30px;
-    height: 40px;
 }
 
+@media screen and (max-width: 800px) {
+    .my-img{
+     height: 250px;
+     width: 250px;
+     margin-top: 10%;
+     border-radius:50%;
+     
+}
 
+    #home{
+     background-color: grey;
+    }
 
+   #home h1{
+     font-size: 65px;
+     margin-left: 25%;
+     width: max-content;
+   }
 
+   #home p{
+    margin-left: 25%;
+   }
 
+   .btn-container{
+      width: 230px;
+      margin-left: 25%;
+      margin-top: 6%;
+   }
 
+   .icon-container{
+      width: 280px;
+      margin-left: 25%;
+   }
 
-
-
-
-
-
-
+   .btn-container button{
+     padding: 4px;
+   }
 }
