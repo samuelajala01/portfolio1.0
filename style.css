@@ -414,13 +414,13 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
-    .my-img{
-     height: 250px;
-     width: 250px;
-     margin-top: 10%;
-     border-radius:50%;
-     
-}
+
+    .my-img {
+        height: 250px;
+        width: 250px;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
 
     #home{
      background-color: grey;
@@ -446,8 +446,10 @@ footer{
       width: 280px;
       margin-left: 25%;
    }
+}
 
-   .btn-container button{
-     padding: 4px;
-   }
+@media screen and (max-width: 650px) {
+    .my-img{
+        display: none;
+    }
 }
