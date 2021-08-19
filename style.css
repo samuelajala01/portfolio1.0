@@ -60,7 +60,7 @@
  font-size: 70px;
  margin-left: 15vw;
  margin-top: 90px;
- min-width: 330px;
+ width: max-content;
 
 }
 
@@ -409,46 +409,111 @@ footer{
     padding-top: 15px;
 }
 
-@media screen and (max-width:1024px) {
 
-}
 
-@media screen and (max-width: 800px) {
-
+@media screen and (max-width: 785px) {
+    
     .my-img {
-        height: 250px;
-        width: 250px;
-        margin-top: 10%;
+        width: 30vw;
+        height: 40vh;
+        margin-top: 14%;
         border-radius: 50%;
     }
-
+    
     #home{
-     background-color: grey;
+        background-color: grey;
     }
-
-   #home h1{
-     font-size: 65px;
-     margin-left: 25%;
-     width: max-content;
+    
+    #home h1{
+        font-size: 65px;
+        margin-left: 25%;
+        width: max-content;
    }
-
+   
    #home p{
     margin-left: 25%;
    }
 
    .btn-container{
-      width: 230px;
+       width: 230px;
+       margin-left: 25%;
+       margin-top: 6%;
+    }
+    
+    .icon-container{
+        width: 280px;
       margin-left: 25%;
-      margin-top: 6%;
-   }
+    }
+    
+    #about h3{
+        font-size: 45px;
+        padding-top: 40px;
+    }
 
-   .icon-container{
-      width: 280px;
-      margin-left: 25%;
-   }
+.about-main{
+    border: 1px solid red;
 }
 
-@media screen and (max-width: 650px) {
+.about-1{
+  height: 560px;
+  margin-right: 30px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.about-1 h6{
+    color: crimson;
+    font-size: 30px;
+}
+
+.about-1 p{
+    font-size: 23px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.my-skills{
+    line-height: 28px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about-2{
+  height: 560px;
+}
+
+.tools{
+   height: 270px;
+   margin-bottom: 20px;
+}
+
+.interests{
+    height: 270px;
+}
+
+.interests ul{
+    font-size: 28px;
+    font-style: normal;
+    color: white;
+    margin-left: 30px;
+    line-height: 45px;
+}
+
+
+
+.about-2 h6{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding-top: 5px;
+}
+}
+
+@media screen and (max-width: 680px) {
+    #home{
+        background-color: aqua;
+    }
+
     .my-img{
         display: none;
     }
