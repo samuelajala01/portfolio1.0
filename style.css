@@ -534,3 +534,9 @@ footer{
         display: none;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #home{
+        background-color: green;
+    }
+}
