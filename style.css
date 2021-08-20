@@ -77,7 +77,7 @@
   margin-left: 15vw;
   font-size: 2.2rem;
   color: blue;
-  width: 330px;
+   width: 330px;
 }
 
 .my-img{
@@ -90,7 +90,7 @@
 
 .btn-container{
     margin-left: 15vw;
-    margin-top: 2%;
+    margin-top: 3%;
     display: flex;
     width: 240px;
     justify-content: space-between;
@@ -153,7 +153,6 @@
 .about-main{
    display: flex;
    margin: 10px;
-   flex-wrap: wrap;
 }
 
 .about-1{
@@ -174,13 +173,15 @@
 .about-1 p{
     font-size: 25px;
     line-height: 30px;
+    width: max-content;
     padding-left: 20px;
+    letter-spacing: 2px;
 }
 
 .my-skills{
-    line-height: 25px;
-    padding-left: 20px;
-    font-size: 25px;
+    line-height: 30px;
+    padding-left: 60px;
+    font-size: 27px;
     margin-bottom: 10px;
 }
 
@@ -208,6 +209,7 @@
     font-size: 30px;
     font-style: oblique;
     color: white;
+    line-height: 45px;
     margin-left: 30px;
 }
 
@@ -411,11 +413,11 @@ footer{
 
 
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 1140px) {
     
     .my-img {
         width: 30vw;
-        height: 34vh;
+        height: 40vh;
         margin-top: 13%;
         border-radius: 50%;
     }
@@ -444,6 +446,11 @@ footer{
         width: 280px;
       margin-left: 25%;
     }
+
+    .about-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     #about h3{
         font-size: 45px;
@@ -465,10 +472,12 @@ footer{
     font-size: 23px;
     line-height: 30px;
     padding-left: 15px;
+    width: max-content;
 }
 
 .my-skills{
     line-height: 28px;
+    padding-left: 20px;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -491,6 +500,7 @@ footer{
     font-style: normal;
     color: white;
     margin-left: 30px;
+    width: max-content;
     line-height: 45px;
 }
 
@@ -504,7 +514,7 @@ footer{
 }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 670px) {
     #home{
         background-color: aqua;
     }
@@ -535,8 +545,24 @@ footer{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #home{
         background-color: green;
+    }
+
+    #home h1{
+        margin-left: 13%
+    }
+
+    #home p{
+        margin-left: 13%
+    }
+
+    .btn-container{
+        margin-left: 13%
+    }
+
+    .icon-container{
+        margin-left: 13%
     }
 }
