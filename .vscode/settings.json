@@ -6,5 +6,6 @@
         "consectetur",
         "elit"
     ],
-    "cSpell.language": "en"
+    "cSpell.language": "en",
+    "prettier.singleQuote": true
 }
