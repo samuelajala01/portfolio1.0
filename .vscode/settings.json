@@ -7,5 +7,6 @@
         "elit"
     ],
     "cSpell.language": "en",
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "liveServer.settings.CustomBrowser": "chrome"
 }
