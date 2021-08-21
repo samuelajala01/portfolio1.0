@@ -556,6 +556,7 @@ progress{
 @media screen and (max-width: 500px) {
     #home{
         background-color: green;
+        width: 100vw;
     }
 
     #home h1{
