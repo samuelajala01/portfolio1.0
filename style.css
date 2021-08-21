@@ -68,7 +68,6 @@
     min-width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 
@@ -482,6 +481,10 @@ footer{
     margin-bottom: 10px;
 }
 
+progress{
+    width: 80%;
+}
+
 .about-2{
   height: 560px;
 }
@@ -538,6 +541,11 @@ footer{
 
     .icon-container{
         margin-left: 18%
+    }
+
+    .about-1{
+       width: auto;
+       margin: auto;
     }
 
     footer{
