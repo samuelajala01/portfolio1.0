@@ -585,34 +585,20 @@ progress{
 
     #home{
         background-color: cornflowerblue;
-        width: 100vw;
+        min-width: 100vw;
+       
     }
 
     .home-main{
-        max-width: 100%;
+        min-width: 100%;
     }
 
     #home h1{
         font-size: 4rem;
     }
-}
 
-@media screen and (max-width: 324px) {
-    #home h1{
-        font-size: 56px;
-        margin-left: 15px;
-    }
-
-    #home p{
-        margin-left: 15px;
-        font-size: 1.9rem;
+    #home {
         width: max-content;
-       }
-
-   .btn-container{
-       margin-left: 15px;
-    }
-    .icon-container{
-      margin-left: 15px;
     }
 }
+
