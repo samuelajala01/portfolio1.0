@@ -600,6 +600,7 @@ progress{
     #home p{
         margin-left: 15px;
         font-size: 1.9rem;
+        width: max-content;
        }
 
    .btn-container{
