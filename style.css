@@ -557,27 +557,23 @@ progress{
 @media screen and (max-width: 500px) {
     #home{
         background-color: green;
-        width: 100vw;
-    }
-
-    .home-main{
-      width: 100vw;
+        min-width: 100vw;
     }
 
     #home h1{
-        margin-left: 13%;
+        margin-left: 10%;
     }
 
     #home p{
-        margin-left: 13%
+        margin-left: 10%
     }
 
     .btn-container{
-        margin-left: 13%
+        margin-left: 10%
     }
 
     .icon-container{
-        margin-left: 13%
+        margin-left: 10%
     }
 }
 
@@ -585,34 +581,14 @@ progress{
 
     #home{
         background-color: cornflowerblue;
-        width: 100vw;
     }
 
-    .home-main{
-        max-width: 100%;
-    }
 
     #home h1{
         font-size: 4rem;
     }
-}
 
-@media screen and (max-width: 324px) {
-    #home h1{
-        font-size: 56px;
-        margin-left: 15px;
-    }
-
-    #home p{
-        margin-left: 15px;
-        font-size: 1.9rem;
-        width: max-content;
-       }
-
-   .btn-container{
-       margin-left: 15px;
-    }
-    .icon-container{
-      margin-left: 15px;
+    section{
+        width: 100vw;
     }
 }
