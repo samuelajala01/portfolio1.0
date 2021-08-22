@@ -1,5 +1,5 @@
 function myalert(){
-    alert("Still working on the responsive part, view on a desktop");
+    alert("well, working on that stupid white gap");
 }
 
 setTimeout(myalert(), 3000);
