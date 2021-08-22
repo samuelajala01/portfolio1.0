@@ -557,27 +557,23 @@ progress{
 @media screen and (max-width: 500px) {
     #home{
         background-color: green;
-        width: 100vw;
-    }
-
-    .home-main{
-      width: 100vw;
+        min-width: 100vw;
     }
 
     #home h1{
-        margin-left: 13%;
+        margin-left: 10%;
     }
 
     #home p{
-        margin-left: 13%
+        margin-left: 10%
     }
 
     .btn-container{
-        margin-left: 13%
+        margin-left: 10%
     }
 
     .icon-container{
-        margin-left: 13%
+        margin-left: 10%
     }
 }
 
@@ -602,3 +598,7 @@ progress{
     }
 }
 
+    section{
+        width: 100vw;
+    }
+}
