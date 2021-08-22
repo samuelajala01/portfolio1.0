@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .main-nav {
@@ -559,8 +560,12 @@ progress{
         width: 100vw;
     }
 
+    .home-main{
+      width: 100vw;
+    }
+
     #home h1{
-        margin-left: 13%
+        margin-left: 13%;
     }
 
     #home p{
@@ -573,5 +578,34 @@ progress{
 
     .icon-container{
         margin-left: 13%
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #home{
+        background-color: cornflowerblue;
+    }
+
+    #home h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    #home h1{
+        font-size: 56px;
+        margin-left: 15px;
+    }
+
+    #home p{
+        margin-left: 15px;
+        font-size: 1.9rem;
+       }
+
+   .btn-container{
+       margin-left: 15px;
+    }
+    .icon-container{
+      margin-left: 15px;
     }
 }
