@@ -582,8 +582,15 @@ progress{
 }
 
 @media screen and (max-width: 430px) {
+   
     #home{
         background-color: cornflowerblue;
+        min-width: 100vw;
+    }
+
+    .home-main{
+        max-width: 100%;
+       flex: none;
     }
 
     #home h1{
