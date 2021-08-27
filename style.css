@@ -6,6 +6,14 @@
 
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .main-nav {
   height: 2.7rem;
 }
@@ -581,19 +589,20 @@ progress{
 
     #home{
         background-color: cornflowerblue;
-        min-width: 100vw;
-       
     }
+        #home h1{
+            margin-left: 8%;
+        }
 
-    .home-main{
-        min-width: 100%;
-    }
+        #home p{
+            margin-left: 8%;
+        }
 
-    #home h1{
-        font-size: 4rem;
-    }
+        .btn-container{
+            margin-left: 8%;
+        }
 
-    #home {
-        width: max-content;
-    }
+        .icon-container{
+            margin-left: 8%;
+        }
 }
