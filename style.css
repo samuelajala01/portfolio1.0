@@ -59,7 +59,7 @@ html,body{
     color: blue;
     transition-duration: 1000ms;
     transition: 0.2s;
-  }
+}
 
 #home{
    min-height: 93vh;
@@ -531,6 +531,47 @@ progress{
         background-color: aqua;
     }
 
+    .main-nav{
+        display: none;
+    }
+    .ham-menu > span{
+        display: block;
+        width: 28px;
+        height: 5px;
+        border-radius: 9px;
+        background-color: black;
+}
+
+    .ham-menu > span:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    .ham-menu, .ham-menu > span {
+        transition: all .4s ease-in-out;
+    }
+
+    .ham-menu.active{
+        transition-delay: 0.8s;
+        transform: rotate(45deg);
+    }
+
+    .ham-menu.active > span:nth-child(2) {
+        width: 0;
+    }
+
+    .ham-menu.active > span:nth-child(1),
+    .ham-menu.active > span:nth-child(3) {
+        transition-delay: .4s;
+    }
+
+    .ham-menu.active > span:nth-child(1) {
+        transform: translateY(9px);
+}
+
+    .ham-menu.active > span:nth-child(3) {
+        transform: translateY(-9px) rotate(90deg);
+}
+
     #home h1{
         font-size: 70px;
         margin-left: 18%
@@ -590,19 +631,17 @@ progress{
     #home{
         background-color: cornflowerblue;
     }
-        #home h1{
-            margin-left: 8%;
-        }
 
-        #home p{
-            margin-left: 8%;
-        }
-
-        .btn-container{
-            margin-left: 8%;
-        }
-
-        .icon-container{
-            margin-left: 8%;
-        }
+    #home h1{
+        margin-left: 8%;
+    }
+    #home p{
+        margin-left: 8%;
+    }
+    .btn-container{
+        margin-left: 8%;
+    }
+    .icon-container{
+        margin-left: 8%;
+    }
 }

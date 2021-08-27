@@ -3,3 +3,9 @@ function myalert(){
 }
 
 setTimeout(myalert(), 3000);
+
+const hamMenu = document.querySelector(".ham-menu");
+
+hamMenu.addEventListener("click", () => {
+    hamMenu.classList.toggle("active");
+});
