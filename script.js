@@ -1,11 +1,12 @@
 function myalert(){
-    alert("well, working on that stupid white gap");
+    alert("Site in progress");
 }
 
-setTimeout(myalert(), 3000);
+setTimeout(myalert(), 2000);
 
-const hamMenu = document.querySelector(".ham-menu");
+const toggleButton = document.getElementsByClassName("toggle-button")[0]
+const navbarLinks = document.getElementsByClassName("navbar-links")[0]
 
-hamMenu.addEventListener("click", () => {
-    hamMenu.classList.toggle("active");
-});
+toggleButton.addEventListener("click", () => {
+    navbarLinks.classList.toggle("active")
+})

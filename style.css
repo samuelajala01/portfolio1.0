@@ -1,76 +1,78 @@
 *{
     scroll-behavior: smooth;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
 }
 
 html,body{
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
 }
-
-.main-nav {
-  height: 2.7rem;
-}
-
-.main-nav ul {
+.navbar{
     display: flex;
-    position: fixed;
-    margin-left: 20%;
-}
-
-.img-logo {
-    border-radius: 30px;
-    border: 1px solid blue;
-    text-align: center;
-    outline: none;
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
     color: white;
-    font-size: 25px;
-    position: fixed;
-    width: 55px;
-    text-decoration: none;
-    height: 30px;
-    margin-top: 0.6%;
-    margin-right: 5%;
-    margin-left: 10%;
 }
 
-.main-nav ul li{
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
     list-style: none;
-    list-style-type: none;
-    padding-right: 85px;
-    margin-top: 0.8%;
 }
 
-.main-nav ul li a{
-    color: black;
-    font-size: 2.4vw;
-    cursor: pointer;
+.navbar-links li a {
     text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
 }
 
-.main-nav ul li a:hover{
-    color: blue;
-    transition-duration: 1000ms;
-    transition: 0.2s;
+.navbar-links li:hover{
+    background-color: #555;
 }
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 
 #home{
    min-height: 93vh;
 }
+
 
 #home h1{
  font-size: 70px;
  margin-left: 15vw;
  margin-top: 90px;
  width: max-content;
-
 }
 
 .home-main{
@@ -175,7 +177,7 @@ html,body{
 .about-1 h6{
     font-size: 35px;
     font-style: italic;
-    text-align: center;  
+    text-align: center;
 }
 
 .about-1 p{
@@ -531,50 +533,40 @@ progress{
         background-color: aqua;
     }
 
-    .main-nav{
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
         display: none;
-    }
-    .ham-menu > span{
-        display: block;
-        width: 28px;
-        height: 5px;
-        border-radius: 9px;
-        background-color: black;
-}
-
-    .ham-menu > span:not(:last-child) {
-        margin-bottom: 7px;
+        width: 100%;
     }
 
-    .ham-menu, .ham-menu > span {
-        transition: all .4s ease-in-out;
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .ham-menu.active{
-        transition-delay: 0.8s;
-        transform: rotate(45deg);
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
     }
 
-    .ham-menu.active > span:nth-child(2) {
-        width: 0;
+    .navbar-links li{
+         text-align: center;
     }
 
-    .ham-menu.active > span:nth-child(1),
-    .ham-menu.active > span:nth-child(3) {
-        transition-delay: .4s;
+    .navbar-links li a{
+        padding: .5rem 1rem;
     }
 
-    .ham-menu.active > span:nth-child(1) {
-        transform: translateY(9px);
-}
-
-    .ham-menu.active > span:nth-child(3) {
-        transform: translateY(-9px) rotate(90deg);
-}
+    .navbar-links:active{
+        display: flex;
+    }
 
     #home h1{
         font-size: 70px;
-        margin-left: 18%
+        margin-left: 18%;
     }
 
     #home p{
@@ -610,6 +602,7 @@ progress{
     }
 
     #home h1{
+        font-size: 64px;
         margin-left: 10%;
     }
 
