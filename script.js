@@ -10,4 +10,6 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
-
+function cvClick() {
+    alert("CV not available yet");
+}
