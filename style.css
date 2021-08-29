@@ -467,9 +467,7 @@ padding-top: 15px;
 
  .about-1{
    height: 560px;
-   margin-right: 30px;
    border-radius: 30px;
-   align-items: center;
  }
 
  .about-1 h6{
@@ -477,10 +475,10 @@ padding-top: 15px;
  }
 
  .about-1 p{
-     font-size: 23px;
-     line-height: 30px;
-     padding-left: 15px;
-     width: max-content;
+   font-size: 23px;
+   line-height: 30px;
+   padding-left: 15px;
+   width: max-content;
  }
 
  .my-skills{
@@ -581,16 +579,24 @@ padding-top: 15px;
         margin-left: 18%
     }
 
+    .about-main{
+        justify-content: space-between;
+    }
+
     .about-1{
+       justify-content: space-between;
        width: auto;
        margin: auto;
     }
 
-    .project-wrapper{
-        display: none;
-    }
 
     footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project-wrapper{
         display: none;
     }
 }
