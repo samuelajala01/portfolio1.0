@@ -13,14 +13,17 @@ html,body{
 
 .navbar {
     display: flex;
+    position: fixed;
+    width: 100%;
     align-items: center;
     background-color: #333;
     color: white;
 }
 
 .brand-title {
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin: .5rem;
+    margin-left: 5vw;
 }
 
 .navbar-links ul{
@@ -35,8 +38,8 @@ html,body{
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding: 1rem;
     display: block;
 }
@@ -521,7 +524,7 @@ padding-top: 15px;
  }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 800px) {
     #home{
         background-color: aqua;
     }
@@ -581,6 +584,10 @@ padding-top: 15px;
     .about-1{
        width: auto;
        margin: auto;
+    }
+
+    .project-wrapper{
+        display: none;
     }
 
     footer{
