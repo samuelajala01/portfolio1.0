@@ -182,6 +182,7 @@ html,body{
   border-radius: 30px;
   background-color: black;
   border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 
 .about-1 h6{
@@ -214,7 +215,6 @@ height: 570px;
 margin-left: 4px;
 border-radius: 30px;
 background-color: #fff;
-border-left: 2px solid black;
 }
 
 .tools{
