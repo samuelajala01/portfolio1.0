@@ -1,5 +1,5 @@
 function myalert(){
-    alert("navbar in progress");
+    alert("Responsive design in progress");
 }
 myalert();
 
