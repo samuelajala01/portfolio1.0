@@ -72,8 +72,8 @@ html,body{
    border-radius: 10px;
 }
 
-#home {
-    height: 100%;
+#home{
+    min-height: 100vh;
 }
 
 #home h1{
@@ -84,9 +84,8 @@ html,body{
 }
 
 .home-main{
-         min-width: 100%;
-         display: flex;
-         justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #home p{
@@ -148,7 +147,7 @@ html,body{
 }
 
 .icon-container a{
-    color: white;
+    color: black;
 }
 
 #about{
