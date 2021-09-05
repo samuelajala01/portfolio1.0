@@ -22,6 +22,7 @@ html,body{
     width: 100vw;
     align-items: center;
     background-color: white;
+    z-index: 999;
 }
 
 .brand-title {
@@ -182,6 +183,7 @@ html,body{
 .about-1 h6{
 font-size: 35px;
 font-style: italic;
+position: relative;
 text-align: center;
 color: #fff;
 }
@@ -191,6 +193,7 @@ font-size: 25px;
 color: #fff;
 line-height: 30px;
 width: max-content;
+position: relative;
 padding-left: 20px;
 letter-spacing: 2px;
 }
@@ -200,11 +203,13 @@ line-height: 30px;
 padding-left: 60px;
 font-size: 27px;
 color: #fff;
+position: relative;
 margin-bottom: 10px;
 }
 
 progress{
     width: 80%;
+    position: relative;
 }
 
 .about-2{
@@ -326,7 +331,6 @@ text-align: center;
 }
 
 @media screen and (max-width: 1140px) {
-
     .navbar-links li a{
        margin-left: 4vw;
        margin-right: 4vw;
@@ -334,8 +338,9 @@ text-align: center;
 
     .my-img {
         width: 30vw;
-        height: 40vh;
-        margin-top: 13%;
+        height: 45vh;
+        margin-top: 12%;
+        margin-left: -10%;
         border-radius: 50%;
     }
 
@@ -398,6 +403,12 @@ text-align: center;
     }
 }
 
+@media screen and (max-width: 750px) {
+    .my-img{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .brand-title{
         color: #fff;
@@ -438,11 +449,6 @@ text-align: center;
     .navbar-links.active{
         display: flex;
     }
-
-    .my-img{
-        display: none;
-    }
-
 }
 
 @media screen and (max-width: 650px) {
@@ -469,15 +475,15 @@ text-align: center;
     }
 
     #home p{
-        margin-left: 10%
+        margin-left: 10%;
     }
 
     .btn-container{
-        margin-left: 10%
+        margin-left: 10%;
     }
 
     .icon-container{
-        margin-left: 10%
+        margin-left: 10%;
     }
 }
 

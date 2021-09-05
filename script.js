@@ -1,5 +1,5 @@
 function myalert(){
-    alert("Responsive design in progress");
+    alert("Adding finishing touches to site");
 }
 myalert();
 
