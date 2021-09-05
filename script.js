@@ -11,5 +11,5 @@ toggleButton.addEventListener('click', () => {
 })
 
 function cvClick() {
-    alert("CV not available yet");
+    alert("You are now moving to another site");
 }
