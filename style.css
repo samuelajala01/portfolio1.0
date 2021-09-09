@@ -131,7 +131,7 @@ body {
 
 .icon-container {
   height: 60px;
-  width: 240px;
+  width: 280px;
   margin-top: 60px;
   margin-left: 15vw;
 }
@@ -153,6 +153,10 @@ body {
 
 .icon-container a {
   color: black;
+}
+
+figcaption {
+  font-size: 16px;
 }
 
 #about {
