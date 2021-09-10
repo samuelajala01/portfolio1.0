@@ -1,7 +1,6 @@
-function myalert() {
+setTimeout(function () {
   alert('working on the social links');
-}
-myalert();
+}, 5000);
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links')[0];

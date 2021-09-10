@@ -264,6 +264,13 @@ progress[value]::-webkit-progress-value {
   border-bottom: 2px solid white;
 }
 
+.tools p {
+  padding: 2vw;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
 .interests {
   height: 280px;
   margin-top: 10px;
@@ -356,7 +363,8 @@ progress[value]::-webkit-progress-value {
   background: url('images/contact-img.jpg');
   background-size: cover;
   color: white;
-  height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 .nav-space {
@@ -372,7 +380,6 @@ progress[value]::-webkit-progress-value {
 .hero {
   width: 100%;
   height: fit-content;
-  border: 1px solid cyan;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -448,10 +455,11 @@ textarea:valid ~ label {
 }
 
 .social-links {
-  height: 60px;
-  width: 600px;
+  height: 8vh;
+  width: 47vw;
   margin-top: 30px;
   margin-left: 26vw;
+  position: relative;
   background-color: brown;
 }
 
