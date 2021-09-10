@@ -1,5 +1,5 @@
 function myalert() {
-  alert('Adding finishing touches to site');
+  alert('working on the social links');
 }
 myalert();
 
