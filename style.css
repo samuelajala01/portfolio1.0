@@ -353,10 +353,10 @@ progress[value]::-webkit-progress-value {
 }
 
 #contact {
-  min-height: 100vh;
   background: url('images/contact-img.jpg');
   background-size: cover;
   color: white;
+  height: 100%;
 }
 
 .nav-space {
@@ -371,16 +371,17 @@ progress[value]::-webkit-progress-value {
 
 .hero {
   width: 100%;
-  height: 80vh;
+  height: fit-content;
+  border: 1px solid cyan;
   background-position: center;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 form {
   width: 90%;
   max-width: 600px;
+  margin-top: 8vh;
 }
 
 .row {
@@ -444,6 +445,36 @@ textarea:valid ~ label {
   transition-duration: 1s;
   color: black;
   font-weight: 700;
+}
+
+.social-links {
+  height: 60px;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 26vw;
+  background-color: brown;
+}
+
+.social-links ul {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.social-links li {
+  text-decoration: none;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: green;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social-links a {
+  font-size: 45px;
 }
 
 @media screen and (max-width: 1140px) {
