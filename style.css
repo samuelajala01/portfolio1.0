@@ -98,7 +98,7 @@ body {
   margin-left: 15vw;
   font-size: 2.2rem;
   color: blue;
-  width: 330px;
+  min-width: 330px;
 }
 
 .my-img {
@@ -258,27 +258,30 @@ progress[value]::-webkit-progress-value {
   background-color: #fff;
 }
 
-.tools {
+.intro {
   height: 280px;
   border-radius: 30px;
+  background-color: green;
   border-bottom: 2px solid white;
 }
 
-.tools p {
+.intro p {
   padding: 2vw;
-  font-size: 1.2rem;
+  font-size: 1.033rem;
+  margin-bottom: 2%;
+  position: relative;
   font-weight: 600;
   font-family: 'Arial Narrow Bold', sans-serif;
 }
 
-.interests {
+.i-love {
   height: 280px;
   margin-top: 10px;
   border-radius: 30px;
   border-top: 2px solid white;
 }
 
-.interests ul {
+.i-love ul {
   font-size: 30px;
   font-style: oblique;
   color: black;
@@ -286,7 +289,7 @@ progress[value]::-webkit-progress-value {
   margin-left: 30px;
 }
 
-.interests ul li {
+.i-love ul li {
   padding-right: 30px;
   font-weight: 600;
 }
@@ -535,15 +538,15 @@ textarea:valid ~ label {
     height: 560px;
   }
 
-  .tools {
+  .intro {
     height: 275px;
   }
 
-  .interests {
+  .i-love {
     height: 275px;
   }
 
-  .interests ul {
+  .i-love ul {
     font-size: 28px;
     font-style: normal;
     margin-left: 30px;
@@ -613,12 +616,12 @@ textarea:valid ~ label {
 }
 
 @media screen and (max-width: 597px) {
-  .tools {
+  .intro {
     height: 270px;
     margin-top: 10px;
   }
 
-  .interests {
+  .i-love {
     height: 270px;
   }
 }
