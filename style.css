@@ -463,7 +463,6 @@ textarea:valid ~ label {
   margin-top: 30px;
   margin-left: 26vw;
   position: relative;
-  background-color: brown;
 }
 
 .social-links ul {
@@ -477,7 +476,6 @@ textarea:valid ~ label {
   position: relative;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: green;
   width: 100%;
   text-align: center;
   align-items: center;
