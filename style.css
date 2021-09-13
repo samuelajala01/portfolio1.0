@@ -261,7 +261,6 @@ progress[value]::-webkit-progress-value {
 .intro {
   height: 280px;
   border-radius: 30px;
-  background-color: green;
   border-bottom: 2px solid white;
 }
 
