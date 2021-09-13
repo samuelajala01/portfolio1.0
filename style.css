@@ -262,15 +262,18 @@ progress[value]::-webkit-progress-value {
   height: 280px;
   border-radius: 30px;
   border-bottom: 2px solid white;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.intro h6 {
+  margin-bottom: 2vh;
 }
 
 .intro p {
-  padding: 2vw;
-  font-size: 1.033rem;
-  margin-bottom: 2%;
-  position: relative;
+  text-align: justify;
   font-weight: 600;
-  font-family: 'Arial Narrow Bold', sans-serif;
+  text-overflow: ellipsis;
 }
 
 .i-love {
@@ -614,12 +617,11 @@ textarea:valid ~ label {
 
 @media screen and (max-width: 597px) {
   .intro {
-    height: 270px;
-    margin-top: 10px;
+    height: 275px;
   }
 
   .i-love {
-    height: 270px;
+    height: 275px;
   }
 }
 
