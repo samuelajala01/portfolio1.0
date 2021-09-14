@@ -174,21 +174,21 @@ figcaption {
 
 .about-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0.75rem;
 }
 
-.about-1 {
+.about-2 {
   flex: 1;
   height: 570px;
-  margin-right: 4px;
   border-radius: 30px;
+  margin-left: 8px;
   background-color: black;
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
 
-.about-1 h6 {
+.about-2 h6 {
   font-size: 35px;
   font-style: italic;
   position: relative;
@@ -196,7 +196,7 @@ figcaption {
   color: #fff;
 }
 
-.about-1 p {
+.about-2 p {
   font-size: 25px;
   color: #fff;
   line-height: 30px;
@@ -250,10 +250,10 @@ progress[value]::-webkit-progress-value {
   background-size: 35px 20px, 100%, 100% 100% 100%;
 }
 
-.about-2 {
+.about-1 {
   flex: 1;
   height: 570px;
-  margin-left: 4px;
+  margin-right: 8px;
   border-radius: 30px;
   background-color: #fff;
 }
@@ -296,7 +296,7 @@ progress[value]::-webkit-progress-value {
   font-weight: 600;
 }
 
-.about-2 h6 {
+.about-1 h6 {
   text-align: center;
   font-size: 35px;
   padding-top: 5px;
@@ -511,16 +511,16 @@ textarea:valid ~ label {
     font-size: 45px;
   }
 
-  .about-1 {
+  .about-2 {
     height: 560px;
     border-radius: 30px;
   }
 
-  .about-1 h6 {
+  .about-2 h6 {
     font-size: 30px;
   }
 
-  .about-1 p {
+  .about-2 p {
     font-size: 23px;
     line-height: 30px;
     padding-left: 15px;
@@ -534,7 +534,7 @@ textarea:valid ~ label {
     margin-bottom: 10px;
   }
 
-  .about-2 {
+  .about-1 {
     height: 560px;
   }
 
@@ -554,7 +554,7 @@ textarea:valid ~ label {
     line-height: 45px;
   }
 
-  .about-2 h6 {
+  .about-1 h6 {
     text-align: center;
     font-size: 32px;
     padding-top: 5px;
@@ -622,6 +622,10 @@ textarea:valid ~ label {
 
   .i-love {
     height: 275px;
+  }
+
+  .row {
+    display: block;
   }
 }
 
