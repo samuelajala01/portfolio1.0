@@ -310,6 +310,7 @@ progress[value]::-webkit-progress-value {
 
 .projects-container {
   display: flex;
+  margin-top: 4px;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
