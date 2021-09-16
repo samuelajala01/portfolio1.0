@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><!--this contains the meta and title tags only, used for SEO-->
-    <meta charset="UTF-8" content="Samuel Ajala is 16 year old Techie, and Freelancer who specializes in producing web development and cybersecurity solutions to clients.">
+    <meta charset="UTF-8" name="description" content="Samuel Ajala is 16 year old Techie, and Freelancer who specializes in producing web development and cybersecurity solutions to clients.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Samuel Ajala: Freelancer">
+    <meta property="og:description" content=" I'm a 17 year old freelance web developer">
+    <meta property="og:image" content="images/main.png">
     <title>Samuel Ajala</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="images/SAT-logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/4c9f7b6b21.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar"><!--this is the main nav bar, which can be seen on larger screens than-->
@@ -48,14 +50,32 @@
             </div>
           </div>
         <!-- the image on the right <images can only be seen on desktops>-->
-          <img class="my-img" src="images/main.png" alt="Image of Samuel Ajala">
+          <img class="my-img" src="images/main.png" alt=" An Image of Samuel Ajala">
       </div>
   </section>
   <section id="about">
     <h3>I FREELANCE</h3>
     <!--this code houses about-1 and about-2 to display them as flex<this flex can be only on bigger screens-->
       <div class="about-main">
-          <div class="about-1">
+        <div class="about-1">
+          <div class="intro">
+                <h6>INTRO &#129520</h6>
+                <p>I'm Samuel Ajala, I live in Lagos, Nigeria. I wrote my first code
+                  back when I was 13, but couldn't continue, and now I'm 17 [turned some days ago] and this is actually my first project.<br><br>
+                  I believe there're so many ways Technology can be used to improve people's lives, and I'm going to make that happen.
+                </p>
+          </div>
+          <div class="i-love">
+                <h6>I LOVE</h6>
+              <ul>
+                <li>Cybersec</li>
+                <li>Robotics and AI</li>
+                <li>Digital Marketing</li>
+                <li>Physics</li>
+              </ul>
+          </div>
+        </div>
+          <div class="about-2">
               <h6>WHAT I DO &#x1f914</h6>
                  <p># WEB DESIGN<br># WORDPRESS<br># DIGITAL MARKETING</p><br>
               <h6>MY SKILLS</h6>
@@ -67,24 +87,6 @@
                 NODE.JS:<br><progress max=100 value=60></progress><br>
                 WORDPRESS:<br><progress max=100 value=20></progress><br>
              </div>
-          </div>
-          <div class="about-2">
-            <div class="intro">
-                  <h6>INTRO &#129520</h6>
-                  <p>I'm Samuel Ajala, I live in Lagos, Nigeria. I wrote my first code
-                    back when I was 13, but couldn't continue, and now I'm 16 and this is actually my first project.<br><br>
-                    I believe there're so many ways Technology can be used to change people's lives, and I'm going to make that happen.
-                  </p>
-            </div>
-            <div class="i-love">
-                  <h6>I LOVE</h6>
-                <ul>
-                  <li>Cybersec</li>
-                  <li>Robotics and AI</li>
-                  <li>Digital Marketing</li>
-                  <li>Physics</li>
-                </ul>
-            </div>
           </div>
       </div>
   </section>
@@ -135,9 +137,9 @@
   </section>
   <section id="contact">
     <div class="nav-space"></div>
-  <h3>Reach me</h3>
+  <h3>Hit me up</h3>
   <div class="hero">
-   <form action="@mailto:samuelajala01@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+   <form action="mail.php" method="POST" enctype="multipart/form-data" name="EmailForm">
       <div class="row">
         <div class="input-group">
             <input type="text" id="name" required>
@@ -156,7 +158,7 @@
         <textarea id="message" rows="8" required></textarea>
         <label for="message"><i class="fas fa-comments"></i> Your Message</label>
         </div>
-        <button id="submit-btn" type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+        <button id="submit-btn" type="submit">SEND<i class="fas fa-paper-plane"></i></button>
    </form>
   </div>
   <div class="social-links">
@@ -169,5 +171,6 @@
    </div>
 </section>
   <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/4c9f7b6b21.js" crossorigin="anonymous"></script>
 </body>
 </html>
