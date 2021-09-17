@@ -10,5 +10,5 @@
     ],
     "cSpell.language": "en",
     "prettier.singleQuote": true,
-    "liveServer.settings.CustomBrowser": "chrome"
+    "liveServer.settings.CustomBrowser": "firefox"
 }
