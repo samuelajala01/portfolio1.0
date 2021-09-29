@@ -1,7 +1,7 @@
 # portfolio
 
-created from scratch.
+Built from scratch alone.
 
-used fontawesome.com
+used fontawesome.com as a font library.
 
 

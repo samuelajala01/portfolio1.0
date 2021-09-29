@@ -1,205 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!--this contains the meta and title tags only, used for SEO-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Samuel Ajala: Freelancer">
-  <meta property="og:description" content="I'm a 17 year old freelance web developer">
-  <meta property="og:image" content="images/main.png">
-  <title>Samuel Ajala</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" href="images/SAT-logo.png" type="image/x-icon">
+<head><!--this contains the meta and title tags only, used for SEO-->
+    <meta charset="UTF-8" name="description" content="Samuel Ajala is 16 year old Techie, and Freelancer who specializes in producing web development and cybersecurity solutions to clients.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Samuel Ajala: Freelancer">
+    <meta property="og:description" content=" I'm a 17 year old freelance web developer">
+    <meta property="og:image" content="images/main.png">
+    <title>Samuel Ajala</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/SAT-logo.png" type="image/x-icon">
 </head>
 <body>
-  <nav class="navbar">
-    <!--this is the main nav bar, which can be seen on larger screens than-->
-    <div class="brand-title">
-      SAT
-    </div><a href="#" class="toggle-button"><!--this is for the hamburger menu, it shows only when the width is reduced and not more than aa certain width.-->
-     <!--this creates the three horizontal dots--></a>
-    <div class="navbar-links">
-      <ul>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav><!--home section code-->
+  <nav class="navbar"><!--this is the main nav bar, which can be seen on larger screens than-->
+     <div class="brand-title">SAT</div>
+     <a href="#" class="toggle-button"> <!--this is for the hamburger menu, it shows only when the width is reduced and not more than aa certain width.-->
+       <span class="bar"></span> <!--this creates the three horizontal dots-->
+       <span class="bar"></span>
+       <span class="bar"></span>
+     </a>
+     <div class="navbar-links">
+       <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+     </div>
+  </nav>
+  <!--home section code-->
   <section id="home">
     <!--this houses home-1, which is the left part of the home page, and the image on the right <images can only be seen on desktops> I used this so i can display them using flex-->
-    <div class="home-main"><!--this is the left part of the home section-->
-    <div class="home-1">
-      <h1>Hi,<br>
-      I'm Samuel,<br>
-      a <code>Techie</code></h1>
-      <p>I love building stuff 🚀</p>
-      <div class="btn-container">
-        <button id="btn-1" onclick="cvClick()">Check CV</button> <button id="btn-2"><a href="https://www.fiverr.com/samuelajala01" target="_blank">Hire me</a></button>
+      <div class="home-main">
+        <!--this is the left part of the home section-->
+          <div class="home-1">
+            <h1>Hi,<br> I'm Samuel,<br> a <code>Techie</code></h1>
+            <p>I love building stuff &#128640</p>
+            <div class="btn-container">
+              <button id="btn-1" onclick="cvClick()">Check CV</button>
+              <button id="btn-2"><a href="https://www.fiverr.com/samuelajala01" target="_blank">Hire me</a></button>
+            </div>
+            <div class="icon-container">
+              <ul>
+                <li><a href="https://linkedin.com/in/samuelajala01" target="_blank"><figure><i class="fab fa-linkedin"></i><figcaption>LinkedIn</figcaption></figure></a></li>
+                <li><a href="https://github.com/samuelajala01" target="_blank"><figure><i class="fab fa-github"></i><figcaption>Github</figcaption></figure></a></li>
+                <li><a href="https://twitter.com/samuelajala01" target="_blank"><figure><i class="fab fa-twitter"></i><figcaption>Twitter</figcaption></figure></a></li>
+                <li><a href="https://instagram.com/xamy.dev" target="_blank"><figure><i class="fab fa-instagram"></i><figcaption>Instagram</figcaption></figure></a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- the image on the right <images can only be seen on desktops>-->
+          <img class="my-img" src="images/main.png" alt=" An Image of Samuel Ajala">
       </div>
-      <div class="icon-container">
-        <ul>
-          <li>
-            <a href="https://linkedin.com/in/samuelajala01" target="_blank">
-            <figure>
-              <figcaption>
-                LinkedIn
-              </figcaption>
-            </figure></a>
-          </li>
-          <li>
-            <a href="https://github.com/samuelajala01" target="_blank">
-            <figure>
-              <figcaption>
-                Github
-              </figcaption>
-            </figure></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/samuelajala01" target="_blank">
-            <figure>
-              <figcaption>
-                Twitter
-              </figcaption>
-            </figure></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/xamy.dev" target="_blank">
-            <figure>
-              <figcaption>
-                Instagram
-              </figcaption>
-            </figure></a>
-          </li>
-        </ul>
-      </div>
-    </div><!-- the image on the right <images can only be seen on desktops>-->
-    <img class="my-img" src="images/main.png" alt=" An Image of Samuel Ajala"></div>
   </section>
   <section id="about">
-    <h3>I FREELANCE</h3><!--this code houses about-1 and about-2 to display them as flex<this flex can be only on bigger screens-->
-    <div class="about-main">
-      <div class="about-1">
-        <div class="intro">
-          <h6>INTRO 🤠</h6>
-          <p>I'm Samuel Ajala, I live in Lagos, Nigeria. I wrote my first code back when I was 13, but couldn't continue, the journey started again at 16 and now I'm 17 [turned some days ago] and this is actually my first project.<br>
-          <br>
-          I believe there're so many ways Technology can be used to improve people's lives, and I'm going to make that happen.</p>
+    <h3>I FREELANCE</h3>
+    <!--this code houses about-1 and about-2 to display them as flex<this flex can be only on bigger screens-->
+      <div class="about-main">
+        <div class="about-1">
+          <div class="intro">
+                <h6>INTRO &#129520</h6>
+                <p>I'm Samuel Ajala, I live in Lagos, Nigeria. I wrote my first code
+                  back when I was 13, but couldn't continue, and now I'm 17 [turned some days ago] and this is actually my first project.<br><br>
+                  I believe there're so many ways Technology can be used to improve people's lives, and I'm going to make that happen.
+                </p>
+          </div>
+          <div class="i-love">
+                <h6>I LOVE</h6>
+              <ul>
+                <li>Cybersec</li>
+                <li>Robotics and AI</li>
+                <li>Digital Marketing</li>
+                <li>Physics</li>
+              </ul>
+          </div>
         </div>
-        <div class="i-love">
-          <h6>I LOVE</h6>
-          <ul>
-            <li>Cybersec</li>
-            <li>Robotics and AI</li>
-            <li>Digital Marketing</li>
-            <li>Physics</li>
-          </ul>
-        </div>
+          <div class="about-2">
+              <h6>WHAT I DO &#x1f914</h6>
+                 <p># WEB DESIGN<br># WORDPRESS<br># DIGITAL MARKETING</p><br>
+              <h6>MY SKILLS</h6>
+             <div class="my-skills">
+                HTML:<br><progress max=100 value=90></progress><br>
+                CSS:<br><progress max=100 value=70></progress><br>
+                JAVASCRIPT:<br><progress max=100 value=60></progress><br>
+                REACT/REDUX:<br><progress max=100 value=20></progress><br>
+                NODE.JS:<br><progress max=100 value=60></progress><br>
+                WORDPRESS:<br><progress max=100 value=20></progress><br>
+             </div>
+          </div>
       </div>
-      <div class="about-2">
-        <h6>WHAT I DO 🤔</h6>
-        <p># WEB DESIGN<br>
-        # WORDPRESS<br>
-        # DIGITAL MARKETING</p><br>
-        <h6>MY SKILLS</h6>
-        <div class="my-skills">
-          HTML:<br>
-          <progress max="100" value="90"></progress><br>
-          CSS:<br>
-          <progress max="100" value="70"></progress><br>
-          JAVASCRIPT:<br>
-          <progress max="100" value="60"></progress><br>
-          REACT/REDUX:<br>
-          <progress max="100" value="20"></progress><br>
-          NODE.JS:<br>
-          <progress max="100" value="60"></progress><br>
-          WORDPRESS:<br>
-          <progress max="100" value="20"></progress><br>
-        </div>
-      </div>
-    </div>
   </section>
   <section id="projects">
-    <h3>MY MAIN PROJECTS 😎</h3>
+    <h3>MY MAIN PROJECTS</h3>
     <div class="projects-container">
-      <div class="box-1">
-        <h5>Analogue Clock</h5>
-        <p>This tells the current time, created with Html,CSS and JS</p><img class="project-img" src="images/analogue-clock.png" alt="analogue clock"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/" target="_blank">View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/Analogue-Clock-" target="_blank">Source Code</a></button>
-      </div>
-      <div class="box-2">
-        <h5>This Site</h5>
-        <p>This is the site you're on, purely with html,CSS and JS</p><img class="project-img" src="images/main.png" alt="no img yet"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/" target="_blank">View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/portfolio1.0" target="_blank">&gt;Source Code</a></button>
-      </div>
-      <div class="box-3">
-        <h5>JS Calc</h5>
-        <p>Created purely with only html, CSS and JS</p><img class="project-img" src="images/Calc-img.png" alt="no img yet"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/">View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/Simple-Calculator-" target="_blank">Source Code</a></button>
-      </div>
+        <div class="box-1">
+          <h5>Analogue Clock</h5>
+          <p>This tells the current time, created with Html,CSS and JS</p>
+          <img class="project-img" src="images/analogue-clock.png" alt="analogue clock">
+          <a href="https://simple-calc01.netlify.app/" target="_blank"><button class="demo-btn">View Demo</button></a> <a href="https://github.com/samuelajala01/Analogue-Clock-" target="_blank"><button class="sc-btn">Source Code</button></a>
+        </div>
+        <div class="box-2">
+            <h5>This Site</h5>
+         <p>This is the site you're on, purely with html,CSS and JS</p>
+         <img class="project-img" src="images/main.png" alt="no img yet">
+         <a href="https://simple-calc01.netlify.app/" target="_blank"><button class="demo-btn">View Demo</button></a> <a href="https://github.com/samuelajala01/portfolio1.0" target="_blank"><button class="sc-btn">Source Code</button></a>
+        </div>
+        <div class="box-3">
+            <h5>JS Calc</h5>
+         <p>Created purely with only html, CSS and JS</p>
+         <img class="project-img" src="images/Calc-img.png" alt="no img yet">
+         <a href="https://simple-calc01.netlify.app/"><button class="demo-btn" target="_blank">View Demo</button></a> <a href="https://github.com/samuelajala01/Simple-Calculator-" target="_blank"><button class="sc-btn">Source Code</button></a>
+        </div>
     </div>
     <div class="project-wrapper">
       <div class="projects-container">
         <div class="box-1">
-          <h5>Twitter Clone</h5>
-          <p>Not created yet, but link will out soon</p><img class="project-img" src="images/twitter-clone.png" alt="no img yet"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/" target="_blank">View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/Analogue-Clock-" target="_blank">Source Code</a></button>
+            <h5>Twitter Clone</h5>
+            <p>Not created yet, but link will out soon</p>
+            <img class="project-img" src="images/twitter-clone.png" alt="no img yet">
+            <a href="https://simple-calc01.netlify.app/" target="_blank"><button class="demo-btn">View Demo</button></a> <a href="https://github.com/samuelajala01/Analogue-Clock-" target="_blank"><button class="sc-btn">Source Code</button></a>
         </div>
         <div class="box-2">
           <h5>Weather App</h5>
-          <p>Coming soon, your weather app on the go</p><img class="project-img" src="images/weather-app.png" alt="no img yet"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/" target="_blank">&gt;View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/portfolio" target="_blank">Source Code</a></button>
+          <p>Coming soon, your weather app on the go</p>
+          <img class="project-img" src="images/weather-app.png" alt="no img yet">
+          <a href="https://simple-calc01.netlify.app/" target="_blank"><button class="demo-btn">View Demo</button></a> <a href="https://github.com/samuelajala01/portfolio" target="_blank"><button class="sc-btn">Source Code</button></a>
         </div>
         <div class="box-3">
-          <h5>JS Timer</h5>
-          <p>Simple UI, like a Pomodoro, enjoy the timer</p><img class="project-img" src="images/js-timer.png" alt="no img yet"> <button class="demo-btn"><a href="https://simple-calc01.netlify.app/" target="_blank">View Demo</a></button> <button class="sc-btn"><a href="https://github.com/samuelajala01/JS-timer" target="_blank">Source Code</a></button>
+            <h5>JS Timer</h5>
+            <p>Simple UI, like a Pomodoro, enjoy the timer</p>
+            <img class="project-img" src="images/js-timer.png" alt="no img yet">
+            <a href="https://simple-calc01.netlify.app/" target="_blank"><button class="demo-btn">View Demo</button></a> <a href="https://github.com/samuelajala01/JS timer" target="_blank"><button class="sc-btn">Source Code</button></a>
         </div>
-      </div>
+    </div>
     </div>
   </section>
   <section id="contact">
     <div class="nav-space"></div>
-    <h3>Hit me up</h3>
-    <div class="hero">
-      <form action="mail.php" method="post" enctype="multipart/form-data" name="EmailForm" id="EmailForm">
-        <div class="row">
-          <div class="input-group">
-            <input type="text" id="name" required=""> <label for="name">Your Name</label>
-          </div>
-          <div class="input-group">
-            <input type="text" id="number" required=""> <label for="number">Phone Number</label>
-          </div>
+  <h3>Hit me up</h3>
+  <div class="hero">
+   <form action="mail.php" method="POST" enctype="multipart/form-data" name="EmailForm">
+      <div class="row">
+        <div class="input-group">
+            <input type="text" id="name" required>
+            <label for="name"><i class="fas fa-user"></i> Your Name</label>
         </div>
         <div class="input-group">
-          <input type="text" id="email" required=""> <label for="email">Email id</label>
+          <input type="text" id="number" required>
+          <label for="number"><i class="fas fa-phone-alt"></i> Phone Number</label>
+        </div>
         </div>
         <div class="input-group">
-          <textarea id="message" rows="8" required=""></textarea> <label for="message">Your Message</label>
-        </div><button id="submit-btn" type="submit">SEND</button>
-      </form>
-    </div>
-    <div class="social-links">
-      <ul>
-        <li>
-          <a href="https://linkedin.com/in/samuelajala01" target="_blank"></a>
-        </li>
-        <li>
-          <a href="https://github.com/samuelajala01" target="_blank"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/samuelajala01" target="_blank"></a>
-        </li>
-        <li>
-          <a href="https://instagram.com/xamy.dev" target="_blank"></a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <script src="script.js"></script> 
+        <input type="text" id="email" required>
+        <label for="email"><i class="fas fa-envelope"></i> Email id</label>
+        </div>
+        <div class="input-group">
+        <textarea id="message" rows="8" required></textarea>
+        <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+        </div>
+        <button id="submit-btn" type="submit">SEND<i class="fas fa-paper-plane"></i></button>
+   </form>
+  </div>
+  <div class="social-links">
+    <ul>
+      <li><a href="https://linkedin.com/in/samuelajala01" target="_blank"><i class="fas fa-globe"></i></a></li>
+      <li><a href="https://github.com/samuelajala01" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/samuelajala01" target="_blank"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="https://instagram.com/xamy.dev" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+   </div>
+</section>
+  <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/4c9f7b6b21.js" crossorigin="anonymous"></script>
 </body>
 </html>
