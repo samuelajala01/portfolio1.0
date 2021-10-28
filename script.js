@@ -12,3 +12,7 @@ toggleButton.addEventListener('click', () => {
 function cvClick() {
   alert('CV not available yet');
 }
+
+function sitelink() {
+  alert("You're currently on the site");
+}
