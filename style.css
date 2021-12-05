@@ -88,6 +88,14 @@ body {
   width: max-content;
 }
 
+h1.animate__animated.animate__fadeInDown{
+  --animation-duration: 1.5s;
+}
+
+p.animate__animated.animate__bounceInRight {
+  --animate-duration: 2s;
+}
+
 .home-main {
   display: flex;
   justify-content: space-between;
